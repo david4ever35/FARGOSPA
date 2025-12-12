@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FargoSpaAppWellness")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+795e74952fec766487f3eaea2b2faad208dd6af2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc871338f34ebc81784f190961e0903c5b85500b")]
 [assembly: System.Reflection.AssemblyProductAttribute("FargoSpaAppWellness")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FargoSpaAppWellness")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
