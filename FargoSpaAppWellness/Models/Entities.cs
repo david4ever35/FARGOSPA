@@ -1,4 +1,4 @@
-﻿namespace FargoSpaAndWellness.Models
+namespace FargoSpaAndWellness.Models
 {
     // Booking ties together Customer, Service, and Employee
     public class Booking
@@ -64,10 +64,11 @@
     {
         public int Id { get; set; }
 
-        public int CustomerId { get; set; }
-        public Customer Customer { get; set; }
+        public int Rating { get; set; }
 
-        public string Content { get; set; } = string.Empty;
+        public string Name { get; set; } = string.Empty;
+
+        public string Remarks { get; set; } = string.Empty;
         public DateTime Date { get; set; } = DateTime.Now;
     }
 
