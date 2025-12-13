@@ -70,6 +70,15 @@ namespace FargoSpaAndWellness.Models
 
         public string Remarks { get; set; } = string.Empty;
         public DateTime Date { get; set; } = DateTime.Now;
+
+        public Testimonial() {}
+        public Testimonial(string name, int rating, string remarks)
+        {
+            Name = name;
+            Rating = rating;
+            Remarks = remarks;
+            Date = DateTime.Now;
+        }
     }
 
     // Manager (optional, if you want a separate role table)
