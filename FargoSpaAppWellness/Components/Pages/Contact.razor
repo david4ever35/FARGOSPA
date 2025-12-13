@@ -1,4 +1,134 @@
-﻿@page "/contact"
+@page "/contact"
+@using Microsoft.AspNetCore.Components.Forms
+@using System.ComponentModel.DataAnnotations
+@inject IJSRuntime JsRuntime
 
-<h1>Contact Us</h1>
-<p>Contact form and map will go here.</p>
+<div class="row">
+    <div class="col-md-6">
+        <h2>Contact Us</h2>
+        <EditForm Model="@contactModel"
+                  FormName="ContactForm"
+                  OnValidSubmit="SubmitAsync"
+                  OnInvalidSubmit="HandleInvalidSubmit"
+                  novalidate>
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+
+            <div>
+                <label>Name:</label>
+                <InputText class="form-control form-control-sm"
+                           @bind-Value="contactModel.Name" />
+                <ValidationMessage For="@(() => contactModel.Name)" />
+            </div>
+
+            <div>
+                <label>Email:</label>
+                <InputText class="form-control form-control-sm"
+                           @bind-Value="contactModel.Email"
+                           type="email" />
+                <ValidationMessage For="@(() => contactModel.Email)" />
+            </div>
+
+            <div>
+                <label>Phone Number:</label>
+                <InputText class="form-control form-control-sm"
+                           @bind-Value="contactModel.Phone" />
+                <ValidationMessage For="@(() => contactModel.Phone)" />
+            </div>
+
+            <div>
+                <label>Message:</label>
+                <InputTextArea class="form-control form-control-sm"
+                               rows="4"
+                               @bind-Value="contactModel.Message" />
+                <ValidationMessage For="@(() => contactModel.Message)" />
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </EditForm>
+
+        @code {
+            // Keep the single model instance (do not reassign)
+            private ContactModel contactModel = new(); 
+
+            // Create and reuse a single EditContext for stable validation behavior
+            private EditContext? _editContext;
+
+            private bool _isInteractive = false;
+            private string? _pendingJsMessage;
+
+            protected override void OnInitialized()
+            {
+                // Initialize EditContext once with the model instance
+                _editContext = new EditContext(contactModel);
+            }
+
+            private async Task SubmitAsync()
+            {
+                var message = "Submitted successfully, we'll get back to you soon!";
+
+                if (!_isInteractive)
+                {
+                    _pendingJsMessage = message;
+                    return;
+                }
+
+                await JsRuntime.InvokeVoidAsync("alert", message);
+            }
+
+            private async Task HandleInvalidSubmit(EditContext editContext)
+            {
+                var first = editContext.GetValidationMessages().FirstOrDefault();
+                var message = first ?? "Form is invalid. Check fields.";
+
+                if (!_isInteractive)
+                {
+                    _pendingJsMessage = message;
+                    return;
+                }
+
+                await JsRuntime.InvokeVoidAsync("alert", message);
+            }
+
+            // Called after rendering; safe place to perform JS interop when prerendering is enabled
+            protected override async Task OnAfterRenderAsync(bool firstRender)
+            {
+                if (firstRender)
+                {
+                    _isInteractive = true;
+                }
+
+                if (!string.IsNullOrEmpty(_pendingJsMessage))
+                {
+                    var msg = _pendingJsMessage;
+                    _pendingJsMessage = null;
+                    await JsRuntime.InvokeVoidAsync("alert", msg);
+                }
+            }
+
+            public class ContactModel
+            {
+                [Required(ErrorMessage = "Name is required.")]
+                public string Name { get; set; } = string.Empty;
+
+                [Required(ErrorMessage = "Email is required.")]
+                [EmailAddress(ErrorMessage = "Enter a valid email address.")]
+                public string Email { get; set; } = string.Empty;
+
+                [Required(ErrorMessage = "Phone is required.")]
+                public string Phone { get; set; } = string.Empty;
+
+                [Required(ErrorMessage = "Message is required.")]
+                public string Message { get; set; } = string.Empty;
+            }
+        }
+    </div>
+    <div class="col-md-6">
+        @* Content for the right (half-width on medium screens and up) *@
+        <h2>Visit Us</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210.498742098637!2d-96.79003336957632!3d46.877425211948456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52c8c960befa65ff%3A0x4a3b0148d48b4734!2s116%20Roberts%20St%20N%2C%20Fargo%2C%20ND%2058102!5e0!3m2!1sen!2sus!4v1765597735073!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p>116 Roberts St N</p>
+        <p>Fargo, ND 58102</p>
+        <p>(701) 867-5309</p>
+    </div>
+</div>
