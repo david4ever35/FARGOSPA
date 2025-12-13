@@ -7,6 +7,18 @@
 @using System.Linq
 @using System
 
+<style>
+    .full-width-table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .table-container {
+        padding: 0;
+        margin: 0;
+    }
+</style>
+
 @code {
     // Model for the form
     private Testimonial Review { get; set; } = new Testimonial();
