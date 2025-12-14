@@ -2,3 +2,6 @@ wwwroot\app.css
 wwwroot\bootstrap\bootstrap.min.css
 wwwroot\bootstrap\bootstrap.min.css.map
 wwwroot\favicon.png
+wwwroot\images\Services\body.jpg
+wwwroot\images\Services\facial.jpg
+wwwroot\images\Services\massage.jpg

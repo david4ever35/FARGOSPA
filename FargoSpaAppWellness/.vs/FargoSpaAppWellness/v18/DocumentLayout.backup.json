@@ -1,0 +1,445 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\david\\desktop\\final213\\updated final\\fargospaappwellness\\components\\pages\\services.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:components\\pages\\services.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\david\\desktop\\final213\\updated final\\fargospaappwellness\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\david\\desktop\\final213\\updated final\\fargospaappwellness\\data\\spadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:data\\spadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\david\\desktop\\final213\\updated final\\fargospaappwellness\\fargospaappwellness.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:fargospaappwellness.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\david\\desktop\\final213\\updated final\\fargospaappwellness\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\david\\desktop\\final213\\updated final\\fargospaappwellness\\components\\pages\\testimonials.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:components\\pages\\testimonials.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\david\\desktop\\final213\\updated final\\fargospaappwellness\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\david\\desktop\\final213\\updated final\\fargospaappwellness\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\david\\desktop\\final213\\updated final\\fargospaappwellness\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\david\\desktop\\final213\\updated final\\fargospaappwellness\\components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\david\\desktop\\final213\\updated final\\fargospaappwellness\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\david\\desktop\\final213\\updated final\\fargospaappwellness\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\david\\desktop\\final213\\updated final\\fargospaappwellness\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\david\\desktop\\final213\\updated final\\fargospaappwellness\\models\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:models\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\david\\desktop\\final213\\updated final\\fargospaappwellness\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\david\\desktop\\final213\\updated final\\fargospaappwellness\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\david\\desktop\\final213\\updated final\\fargospaappwellness\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\david\\desktop\\final213\\updated final\\fargospaappwellness\\components\\pages\\admindashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:components\\pages\\admindashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\david\\desktop\\final213\\updated final\\fargospaappwellness\\migrations\\20251214042223_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:migrations\\20251214042223_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\david\\desktop\\final213\\updated final\\fargospaappwellness\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\david\\desktop\\final213\\updated final\\fargospaappwellness\\components\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:components\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\david\\desktop\\final213\\updated final\\fargospaappwellness\\components\\pages\\contact.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:components\\pages\\contact.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\david\\desktop\\final213\\updated final\\fargospaappwellness\\wwwroot\\bootstrap\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:wwwroot\\bootstrap\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\david\\desktop\\final213\\updated final\\fargospaappwellness\\wwwroot\\bootstrap\\bootstrap.min.css.map||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:wwwroot\\bootstrap\\bootstrap.min.css.map||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\david\\desktop\\final213\\updated final\\fargospaappwellness\\components\\pages\\book.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:components\\pages\\book.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\david\\desktop\\final213\\updated final\\fargospaappwellness\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T18:55:52.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "Components\\Routes.razor",
+              "ToolTip": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\Components\\Routes.razor",
+              "RelativeToolTip": "Components\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T18:55:52.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SpaDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\Data\\SpaDBContext.cs",
+              "RelativeDocumentMoniker": "Data\\SpaDBContext.cs",
+              "ToolTip": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\Data\\SpaDBContext.cs",
+              "RelativeToolTip": "Data\\SpaDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T18:55:52.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-14T18:55:52.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\wwwroot\\app.css",
+              "RelativeDocumentMoniker": "wwwroot\\app.css",
+              "ToolTip": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\wwwroot\\app.css",
+              "RelativeToolTip": "wwwroot\\app.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-14T18:55:52.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T18:55:52.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NavMenu.razor.css",
+              "DocumentMoniker": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\Components\\Layout\\NavMenu.razor.css",
+              "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor.css",
+              "ToolTip": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\Components\\Layout\\NavMenu.razor.css",
+              "RelativeToolTip": "Components\\Layout\\NavMenu.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-14T18:55:52.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Services.razor",
+              "DocumentMoniker": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\Components\\Pages\\Services.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Services.razor",
+              "ToolTip": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\Components\\Pages\\Services.razor",
+              "RelativeToolTip": "Components\\Pages\\Services.razor",
+              "ViewState": "AgIAACsAAAAAAAAAAAAUwDoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T18:55:52.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FargoSpaAppWellness.csproj",
+              "DocumentMoniker": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\FargoSpaAppWellness.csproj",
+              "RelativeDocumentMoniker": "FargoSpaAppWellness.csproj",
+              "ToolTip": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\FargoSpaAppWellness.csproj",
+              "RelativeToolTip": "FargoSpaAppWellness.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-14T18:55:52.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Host.cshtml",
+              "DocumentMoniker": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\Pages\\_Host.cshtml",
+              "RelativeDocumentMoniker": "Pages\\_Host.cshtml",
+              "ToolTip": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\Pages\\_Host.cshtml",
+              "RelativeToolTip": "Pages\\_Host.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T18:55:52.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\Components\\App.razor",
+              "RelativeDocumentMoniker": "Components\\App.razor",
+              "ToolTip": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\Components\\App.razor",
+              "RelativeToolTip": "Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T18:55:52.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Testimonials.razor",
+              "DocumentMoniker": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\Components\\Pages\\Testimonials.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Testimonials.razor",
+              "ToolTip": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\Components\\Pages\\Testimonials.razor",
+              "RelativeToolTip": "Components\\Pages\\Testimonials.razor",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAwwHIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T18:55:52.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\Components\\_Imports.razor",
+              "RelativeToolTip": "Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T18:55:52.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Entities.cs",
+              "DocumentMoniker": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\Models\\Entities.cs",
+              "RelativeDocumentMoniker": "Models\\Entities.cs",
+              "ToolTip": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\Models\\Entities.cs",
+              "RelativeToolTip": "Models\\Entities.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T18:55:52.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T18:55:52.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T18:55:52.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MainLayout.razor.css",
+              "DocumentMoniker": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeDocumentMoniker": "Components\\Layout\\MainLayout.razor.css",
+              "ToolTip": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeToolTip": "Components\\Layout\\MainLayout.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-14T18:55:52.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AdminDashboard.razor",
+              "DocumentMoniker": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\Components\\Pages\\AdminDashboard.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\AdminDashboard.razor",
+              "ToolTip": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\Components\\Pages\\AdminDashboard.razor",
+              "RelativeToolTip": "Components\\Pages\\AdminDashboard.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T18:55:52.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Register.razor",
+              "DocumentMoniker": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\Components\\Pages\\Register.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Register.razor",
+              "ToolTip": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\Components\\Pages\\Register.razor",
+              "RelativeToolTip": "Components\\Pages\\Register.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T18:55:52.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20251214042223_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\Migrations\\20251214042223_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251214042223_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\Migrations\\20251214042223_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20251214042223_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T18:55:52.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\Components\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\Components\\Pages\\Login.razor",
+              "RelativeToolTip": "Components\\Pages\\Login.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T18:55:52.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Contact.razor",
+              "DocumentMoniker": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\Components\\Pages\\Contact.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Contact.razor",
+              "ToolTip": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\Components\\Pages\\Contact.razor",
+              "RelativeToolTip": "Components\\Pages\\Contact.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T18:55:52.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "bootstrap.min.css",
+              "DocumentMoniker": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\wwwroot\\bootstrap\\bootstrap.min.css",
+              "RelativeDocumentMoniker": "wwwroot\\bootstrap\\bootstrap.min.css",
+              "ToolTip": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\wwwroot\\bootstrap\\bootstrap.min.css",
+              "RelativeToolTip": "wwwroot\\bootstrap\\bootstrap.min.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-14T18:55:52.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "bootstrap.min.css.map",
+              "DocumentMoniker": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+              "RelativeDocumentMoniker": "wwwroot\\bootstrap\\bootstrap.min.css.map",
+              "ToolTip": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+              "RelativeToolTip": "wwwroot\\bootstrap\\bootstrap.min.css.map",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-14T18:55:52.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Book.razor",
+              "DocumentMoniker": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\Components\\Pages\\Book.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Book.razor",
+              "ToolTip": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\Components\\Pages\\Book.razor",
+              "RelativeToolTip": "Components\\Pages\\Book.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T18:55:52.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Error.razor",
+              "DocumentMoniker": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\Components\\Pages\\Error.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Error.razor",
+              "ToolTip": "C:\\Users\\David\\Desktop\\FINAL213\\UPDATED FINAL\\FargoSpaAppWellness\\Components\\Pages\\Error.razor",
+              "RelativeToolTip": "Components\\Pages\\Error.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T18:55:52.934Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
