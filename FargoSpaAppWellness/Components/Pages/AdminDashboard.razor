@@ -1,22 +1,19 @@
 ﻿@page "/admin"
-@inject FargoSpaAppWellness.Data.SpaDbContext Db
 @inject FargoSpaAppWellness.Services.UserSession Session
-@inject NavigationManager Nav
-
-<h1>Admin Dashboard</h1>
+@inject FargoSpaAppWellness.Data.SpaDbContext Db
 
 @if (!Session.IsAdmin)
 {
-    <p>You are not authorized to view this page.</p>
+    <RedirectToHome />
 }
 else
 {
-    <h2>Users</h2>
-    @if (users == null)
-    {
-        <p>Loading...</p>
-    }
-    else if (users.Count == 0)
+    <h1>Admin Dashboard</h1>
+
+    <!-- USERS TABLE -->
+    <h2 class="mt-4">Users</h2>
+
+    @if (users.Count == 0)
     {
         <p>No users found.</p>
     }
@@ -37,8 +34,15 @@ else
                         <td>@u.Email</td>
                         <td>@u.Role</td>
                         <td>
-                            <button class="btn btn-sm btn-warning me-2" @onclick="() => ToggleRole(u)">Toggle Role</button>
-                            <button class="btn btn-sm btn-danger" @onclick="() => DeleteUser(u.Id)">Delete</button>
+                            <button class="btn btn-sm btn-warning me-2"
+                                    @onclick="() => ToggleRole(u)">
+                                Toggle Role
+                            </button>
+
+                            <button class="btn btn-sm btn-danger"
+                                    @onclick="() => DeleteUser(u.Id)">
+                                Delete
+                            </button>
                         </td>
                     </tr>
                 }
@@ -46,12 +50,10 @@ else
         </table>
     }
 
+    <!-- TESTIMONIALS TABLE -->
     <h2 class="mt-5">Testimonials</h2>
-    @if (testimonials == null)
-    {
-        <p>Loading...</p>
-    }
-    else if (testimonials.Count == 0)
+
+    @if (testimonials.Count == 0)
     {
         <p>No testimonials found.</p>
     }
@@ -74,7 +76,10 @@ else
                         <td>@t.Message</td>
                         <td>@t.Rating</td>
                         <td>
-                            <button class="btn btn-sm btn-danger" @onclick="() => DeleteTestimonial(t.Id)">Delete</button>
+                            <button class="btn btn-sm btn-danger"
+                                    @onclick="() => DeleteTestimonial(t.Id)">
+                                Delete
+                            </button>
                         </td>
                     </tr>
                 }
@@ -84,63 +89,44 @@ else
 }
 
 @code {
-    private List<AppUser> users = new();
-    private List<Testimonial> testimonials = new();
+    List<AppUser> users = new();
+    List<Testimonial> testimonials = new();
 
     protected override void OnInitialized()
     {
-        if (!Session.IsAdmin)
+        if (Session.IsAdmin)
         {
-            // Redirect if not admin
-            InvokeAsync(() => Nav.NavigateTo("/"));
-            return;
+            users = Db.Users.ToList();
+            testimonials = Db.Testimonials.ToList();
         }
-
-        LoadUsers();
-        LoadTestimonials();
     }
 
-    private void LoadUsers()
-    {
-        users = Db.Users.ToList();
-    }
-
-    private void LoadTestimonials()
-    {
-        testimonials = Db.Testimonials.ToList();
-    }
-
-    private void DeleteUser(int id)
+    void DeleteUser(int id)
     {
         var user = Db.Users.Find(id);
         if (user != null)
         {
             Db.Users.Remove(user);
             Db.SaveChanges();
-            LoadUsers();
+            users = Db.Users.ToList();
         }
     }
 
-    private void DeleteTestimonial(int id)
+    void ToggleRole(AppUser user)
+    {
+        user.Role = user.Role == "Admin" ? "User" : "Admin";
+        Db.SaveChanges();
+        users = Db.Users.ToList();
+    }
+
+    void DeleteTestimonial(int id)
     {
         var t = Db.Testimonials.Find(id);
         if (t != null)
         {
             Db.Testimonials.Remove(t);
             Db.SaveChanges();
-            LoadTestimonials();
+            testimonials = Db.Testimonials.ToList();
         }
-    }
-
-    private void ToggleRole(AppUser user)
-    {
-        if (user.Role == "Admin")
-            user.Role = "User";
-        else
-            user.Role = "Admin";
-
-        Db.Users.Update(user);
-        Db.SaveChanges();
-        LoadUsers();
     }
 }

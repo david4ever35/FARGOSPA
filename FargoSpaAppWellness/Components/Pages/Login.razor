@@ -32,6 +32,13 @@
     {
         error = null;
 
+        if (string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(password))
+        {
+            error = "Email and password are required.";
+            return;
+        }
+
+
         // Find existing user
         var user = Db.Users.FirstOrDefault(u => u.Email == email && u.Password == password);
 
@@ -51,6 +58,13 @@
     void HandleRegister()
     {
         error = null;
+
+        if (string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(password))
+        {
+            error = "Email and password are required.";
+            return;
+        }
+
 
         if (Db.Users.Any(u => u.Email == email))
         {
