@@ -1,4 +1,79 @@
 ﻿@page "/book"
+@inject FargoSpaAppWellness.Services.UserSession Session
+@inject FargoSpaAppWellness.Data.SpaDbContext Db
 
-<h1>Book an Appointment</h1>
-<p>Booking form will go here.</p>
+@if (!Session.IsLoggedIn)
+{
+    <RedirectToHome />
+}
+else
+{
+    <h1>Schedule an Appointment</h1>
+
+    @if (availableAppointments.Count == 0)
+    {
+        <p>No appointments available.</p>
+    }
+    else
+    {
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Service</th>
+                    <th>Date & Time</th>
+                    <th>Provider</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var a in availableAppointments)
+                {
+                    <tr>
+                        <td>@a.ServiceName</td>
+                        <td>@a.AppointmentDateTime.ToString("g")</td>
+                        <td>@a.ProviderName</td>
+                        <td>
+                            <button class="btn btn-primary btn-sm"
+                                    @onclick="() => BookAppointment(a.Id)">
+                                Book
+                            </button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+}
+
+@code {
+    List<Appointment> availableAppointments = new();
+
+    protected override void OnInitialized()
+    {
+        if (Session.IsLoggedIn)
+        {
+            LoadAvailableAppointments();
+        }
+    }
+
+    void LoadAvailableAppointments()
+    {
+        availableAppointments = Db.Appointments
+            .Where(a => !a.IsBooked)
+            .OrderBy(a => a.AppointmentDateTime)
+            .ToList();
+    }
+
+    void BookAppointment(int id)
+    {
+        var appt = Db.Appointments.Find(id);
+        if (appt == null || appt.IsBooked)
+            return;
+
+        appt.IsBooked = true;
+        appt.BookedByEmail = Session.CurrentUser!.Email;
+
+        Db.SaveChanges();
+        LoadAvailableAppointments();
+    }
+}

@@ -1,6 +1,10 @@
 ﻿@page "/admin"
+
+@using FargoSpaAppWellness.Models
+@using FargoSpaAppWellness.Data
+
 @inject FargoSpaAppWellness.Services.UserSession Session
-@inject FargoSpaAppWellness.Data.SpaDbContext Db
+@inject SpaDbContext Db
 
 @if (!Session.IsAdmin)
 {
@@ -10,7 +14,7 @@ else
 {
     <h1>Admin Dashboard</h1>
 
-    <!-- USERS TABLE -->
+    <!-- ================= USERS ================= -->
     <h2 class="mt-4">Users</h2>
 
     @if (users.Count == 0)
@@ -50,7 +54,7 @@ else
         </table>
     }
 
-    <!-- TESTIMONIALS TABLE -->
+    <!-- ================= TESTIMONIALS ================= -->
     <h2 class="mt-5">Testimonials</h2>
 
     @if (testimonials.Count == 0)
@@ -86,21 +90,108 @@ else
             </tbody>
         </table>
     }
+
+    <!-- ================= CREATE APPOINTMENT ================= -->
+    <h2 class="mt-5">Create Appointment Slot</h2>
+
+    <div class="row g-2 mb-3">
+        <div class="col-md-3">
+            <input class="form-control"
+                   placeholder="Service Name"
+                   @bind="newServiceName" />
+        </div>
+
+        <div class="col-md-3">
+            <input type="datetime-local"
+                   class="form-control"
+                   @bind="newAppointmentDateTime" />
+        </div>
+
+        <div class="col-md-3">
+            <input class="form-control"
+                   placeholder="Provider Name"
+                   @bind="newProviderName" />
+        </div>
+
+        <div class="col-md-3">
+            <button class="btn btn-success w-100"
+                    @onclick="CreateAppointment">
+                Add Appointment
+            </button>
+        </div>
+    </div>
+
+    <!-- ================= APPOINTMENTS ================= -->
+    <h2 class="mt-4">Appointments</h2>
+
+    @if (appointments.Count == 0)
+    {
+        <p>No appointments created.</p>
+    }
+    else
+    {
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Service</th>
+                    <th>Date & Time</th>
+                    <th>Provider</th>
+                    <th>Status</th>
+                    <th>Booked By</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var a in appointments)
+                {
+                    <tr>
+                        <td>@a.ServiceName</td>
+                        <td>@a.AppointmentDateTime.ToString("g")</td>
+                        <td>@a.ProviderName</td>
+                        <td>@(a.IsBooked ? "Booked" : "Available")</td>
+                        <td>@a.BookedByEmail</td>
+                        <td>
+                            <button class="btn btn-sm btn-danger"
+                                    @onclick="() => DeleteAppointment(a.Id)">
+                                Delete
+                            </button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
 }
 
 @code {
+    // ================= DATA =================
     List<AppUser> users = new();
     List<Testimonial> testimonials = new();
+    List<Appointment> appointments = new();
+
+    // ================= NEW APPOINTMENT FORM =================
+    string newServiceName = "";
+    string newProviderName = "";
+    DateTime newAppointmentDateTime = DateTime.Now;
 
     protected override void OnInitialized()
     {
         if (Session.IsAdmin)
         {
-            users = Db.Users.ToList();
-            testimonials = Db.Testimonials.ToList();
+            LoadAll();
         }
     }
 
+    void LoadAll()
+    {
+        users = Db.Users.ToList();
+        testimonials = Db.Testimonials.ToList();
+        appointments = Db.Appointments
+            .OrderBy(a => a.AppointmentDateTime)
+            .ToList();
+    }
+
+    // ================= USERS =================
     void DeleteUser(int id)
     {
         var user = Db.Users.Find(id);
@@ -119,6 +210,7 @@ else
         users = Db.Users.ToList();
     }
 
+    // ================= TESTIMONIALS =================
     void DeleteTestimonial(int id)
     {
         var t = Db.Testimonials.Find(id);
@@ -127,6 +219,44 @@ else
             Db.Testimonials.Remove(t);
             Db.SaveChanges();
             testimonials = Db.Testimonials.ToList();
+        }
+    }
+
+    // ================= APPOINTMENTS =================
+    void CreateAppointment()
+    {
+        if (string.IsNullOrWhiteSpace(newServiceName) ||
+            string.IsNullOrWhiteSpace(newProviderName))
+            return;
+
+        var appointment = new Appointment
+        {
+            ServiceName = newServiceName,
+            ProviderName = newProviderName,
+            AppointmentDateTime = newAppointmentDateTime,
+            IsBooked = false
+        };
+
+        Db.Appointments.Add(appointment);
+        Db.SaveChanges();
+
+        newServiceName = "";
+        newProviderName = "";
+        newAppointmentDateTime = DateTime.Now;
+
+        appointments = Db.Appointments
+            .OrderBy(a => a.AppointmentDateTime)
+            .ToList();
+    }
+
+    void DeleteAppointment(int id)
+    {
+        var a = Db.Appointments.Find(id);
+        if (a != null)
+        {
+            Db.Appointments.Remove(a);
+            Db.SaveChanges();
+            appointments = Db.Appointments.ToList();
         }
     }
 }
