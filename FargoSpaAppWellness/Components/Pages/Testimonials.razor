@@ -1,5 +1,6 @@
 @page "/testimonials"
 @using FargoSpaAppWellness.Models
+@inject FargoSpaAppWellness.Services.UserSession Session
 @inject FargoSpaAppWellness.Data.SpaDbContext Db
 <style>
     .padded {
@@ -42,10 +43,13 @@ else
                     </div>
                 </div>
 
-                <button class="btn btn-sm btn-danger"
+                @if (Session.IsAdmin)
+                    {
+                        <button class="btn btn-sm btn-danger"
                         @onclick="() => DeleteTestimonial(t.Id)">
-                    Delete
-                </button>
+                        Delete
+                        </button>
+                    }
             </li>
 
         }

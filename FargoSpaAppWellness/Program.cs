@@ -1,4 +1,5 @@
 using FargoSpaAppWellness.Data;
+using FargoSpaAppWellness.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -6,6 +7,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
+builder.Services.AddScoped<UserSession>();
+
 
 // SWITCH TO SQLITE (file-based, plug-and-play)
 builder.Services.AddDbContext<SpaDbContext>(options =>

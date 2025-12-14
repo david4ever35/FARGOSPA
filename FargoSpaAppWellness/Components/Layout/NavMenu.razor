@@ -1,4 +1,9 @@
-﻿<nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top w-100">
+﻿@inject FargoSpaAppWellness.Services.UserSession Session
+@inject NavigationManager Nav
+@implements IDisposable
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top w-100">
     <div class="container-fluid">
         <a class="navbar-brand" href="">FargoSpaAppWellness</a>
 
@@ -14,6 +19,8 @@
 
         <div class="collapse navbar-collapse" id="navbarLinks">
             <ul class="navbar-nav ms-auto">
+
+                <!-- Standard links -->
                 <li class="nav-item nav-item-center">
                     <NavLink class="nav-link" href="/" Match="NavLinkMatch.All">Home</NavLink>
                 </li>
@@ -29,10 +36,51 @@
                 <li class="nav-item nav-item-center">
                     <NavLink class="nav-link" href="contact">Contact</NavLink>
                 </li>
-                <li class="nav-item nav-item-center">
-                    <NavLink class="nav-link" href="login">Login</NavLink>
-                </li>
+
+                <!-- Admin-only link -->
+                @if (Session.IsAdmin)
+                {
+                    <li class="nav-item nav-item-center">
+                        <NavLink class="nav-link" href="admin">Admin Dashboard</NavLink>
+                    </li>
+                }
+
+                <!-- Login / Logout -->
+                @if (Session.IsLoggedIn)
+                {
+                    <li class="nav-item nav-item-center">
+                        <span class="nav-link">Hello, @Session.CurrentUser!.Email</span>
+                    </li>
+                    <li class="nav-item nav-item-center">
+                        <button class="btn btn-link nav-link text-decoration-none" @onclick="Logout">Logout</button>
+                    </li>
+                }
+                else
+                {
+                    <li class="nav-item nav-item-center">
+                        <NavLink class="nav-link" href="login">Login</NavLink>
+                    </li>
+                }
+
             </ul>
         </div>
     </div>
 </nav>
+
+@code {
+    protected override void OnInitialized()
+    {
+        Session.OnChange += StateHasChanged; // re-render when session changes
+    }
+
+    void Logout()
+    {
+        Session.Logout();
+        Nav.NavigateTo("/");
+    }
+
+    public void Dispose()
+    {
+        Session.OnChange -= StateHasChanged; // unsubscribe to prevent memory leaks
+    }
+}

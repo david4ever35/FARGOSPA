@@ -12,5 +12,7 @@ namespace FargoSpaAppWellness.Data
         }
 
         public DbSet<Testimonial> Testimonials { get; set; }
+        public DbSet<AppUser> Users { get; set; }
+
     }
 }

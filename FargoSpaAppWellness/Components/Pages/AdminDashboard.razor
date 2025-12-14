@@ -1,4 +1,146 @@
 ﻿@page "/admin"
+@inject FargoSpaAppWellness.Data.SpaDbContext Db
+@inject FargoSpaAppWellness.Services.UserSession Session
+@inject NavigationManager Nav
 
 <h1>Admin Dashboard</h1>
-<p>Admin tools will go here.</p>
+
+@if (!Session.IsAdmin)
+{
+    <p>You are not authorized to view this page.</p>
+}
+else
+{
+    <h2>Users</h2>
+    @if (users == null)
+    {
+        <p>Loading...</p>
+    }
+    else if (users.Count == 0)
+    {
+        <p>No users found.</p>
+    }
+    else
+    {
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Email</th>
+                    <th>Role</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var u in users)
+                {
+                    <tr>
+                        <td>@u.Email</td>
+                        <td>@u.Role</td>
+                        <td>
+                            <button class="btn btn-sm btn-warning me-2" @onclick="() => ToggleRole(u)">Toggle Role</button>
+                            <button class="btn btn-sm btn-danger" @onclick="() => DeleteUser(u.Id)">Delete</button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+
+    <h2 class="mt-5">Testimonials</h2>
+    @if (testimonials == null)
+    {
+        <p>Loading...</p>
+    }
+    else if (testimonials.Count == 0)
+    {
+        <p>No testimonials found.</p>
+    }
+    else
+    {
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Message</th>
+                    <th>Rating</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var t in testimonials)
+                {
+                    <tr>
+                        <td>@t.Name</td>
+                        <td>@t.Message</td>
+                        <td>@t.Rating</td>
+                        <td>
+                            <button class="btn btn-sm btn-danger" @onclick="() => DeleteTestimonial(t.Id)">Delete</button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+}
+
+@code {
+    private List<AppUser> users = new();
+    private List<Testimonial> testimonials = new();
+
+    protected override void OnInitialized()
+    {
+        if (!Session.IsAdmin)
+        {
+            // Redirect if not admin
+            InvokeAsync(() => Nav.NavigateTo("/"));
+            return;
+        }
+
+        LoadUsers();
+        LoadTestimonials();
+    }
+
+    private void LoadUsers()
+    {
+        users = Db.Users.ToList();
+    }
+
+    private void LoadTestimonials()
+    {
+        testimonials = Db.Testimonials.ToList();
+    }
+
+    private void DeleteUser(int id)
+    {
+        var user = Db.Users.Find(id);
+        if (user != null)
+        {
+            Db.Users.Remove(user);
+            Db.SaveChanges();
+            LoadUsers();
+        }
+    }
+
+    private void DeleteTestimonial(int id)
+    {
+        var t = Db.Testimonials.Find(id);
+        if (t != null)
+        {
+            Db.Testimonials.Remove(t);
+            Db.SaveChanges();
+            LoadTestimonials();
+        }
+    }
+
+    private void ToggleRole(AppUser user)
+    {
+        if (user.Role == "Admin")
+            user.Role = "User";
+        else
+            user.Role = "Admin";
+
+        Db.Users.Update(user);
+        Db.SaveChanges();
+        LoadUsers();
+    }
+}
