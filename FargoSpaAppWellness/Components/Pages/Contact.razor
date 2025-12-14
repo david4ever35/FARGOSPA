@@ -2,6 +2,9 @@
 @using Microsoft.AspNetCore.Components.Forms
 @using System.ComponentModel.DataAnnotations
 @inject IJSRuntime JsRuntime
+@inject FargoSpaAppWellness.Data.SpaDbContext Db
+@using FargoSpaAppWellness.Models
+
 <style>
     .padded {
         padding: 20px;
@@ -68,18 +71,36 @@
                 _editContext = new EditContext(contactModel);
             }
 
-            private async Task SubmitAsync()
-            {
-                var message = "Submitted successfully, we'll get back to you soon!";
-
-                if (!_isInteractive)
+                private async Task SubmitAsync()
                 {
-                    _pendingJsMessage = message;
-                    return;
+                    var entry = new ContactMessage
+                    {
+                        Name = contactModel.Name,
+                        Email = contactModel.Email,
+                        Phone = contactModel.Phone,
+                        Message = contactModel.Message
+                    };
+
+                    Db.ContactMessages.Add(entry);
+                    Db.SaveChanges();
+
+                    // Clear the form
+                    contactModel.Name = "";
+                    contactModel.Email = "";
+                    contactModel.Phone = "";
+                    contactModel.Message = "";
+
+                    var message = "Submitted successfully, we'll get back to you soon!";
+
+                    if (!_isInteractive)
+                    {
+                        _pendingJsMessage = message;
+                        return;
+                    }
+
+                    await JsRuntime.InvokeVoidAsync("alert", message);
                 }
 
-                await JsRuntime.InvokeVoidAsync("alert", message);
-            }
 
             private async Task HandleInvalidSubmit(EditContext editContext)
             {

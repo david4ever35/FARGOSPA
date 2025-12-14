@@ -15,7 +15,11 @@ namespace FargoSpaAppWellness.Data
         public DbSet<AppUser> Users { get; set; }
 
         public DbSet<Appointment> Appointments { get; set; }
+        
+
+        public DbSet<ContactMessage> ContactMessages => Set<ContactMessage>();
 
 
-    }
+
+}
 }

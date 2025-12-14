@@ -3,6 +3,7 @@
 @using FargoSpaAppWellness.Models
 @using FargoSpaAppWellness.Data
 
+
 @inject FargoSpaAppWellness.Services.UserSession Session
 @inject SpaDbContext Db
 
@@ -161,6 +162,48 @@ else
             </tbody>
         </table>
     }
+
+    <!-- CONTACT MESSAGES -->
+    <h2 class="mt-5">Contact Messages</h2>
+
+    @if (contactMessages.Count == 0)
+    {
+        <p>No contact messages.</p>
+    }
+    else
+    {
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Message</th>
+                    <th>Submitted</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var c in contactMessages)
+                {
+                    <tr>
+                        <td>@c.Name</td>
+                        <td>@c.Email</td>
+                        <td>@c.Phone</td>
+                        <td>@c.Message</td>
+                        <td>@c.SubmittedAt.ToShortDateString()</td>
+                        <td>
+                            <button class="btn btn-sm btn-danger"
+                                    @onclick="() => DeleteContact(c.Id)">
+                                Delete
+                            </button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+
 }
 
 @code {
@@ -168,6 +211,8 @@ else
     List<AppUser> users = new();
     List<Testimonial> testimonials = new();
     List<Appointment> appointments = new();
+    List<ContactMessage> contactMessages = new();
+
 
     // ================= NEW APPOINTMENT FORM =================
     string newServiceName = "";
@@ -189,6 +234,10 @@ else
         appointments = Db.Appointments
             .OrderBy(a => a.AppointmentDateTime)
             .ToList();
+        contactMessages = Db.ContactMessages
+            .OrderByDescending(c => c.SubmittedAt)
+            .ToList();
+
     }
 
     // ================= USERS =================
@@ -259,4 +308,16 @@ else
             appointments = Db.Appointments.ToList();
         }
     }
+
+    void DeleteContact(int id)
+    {
+        var entry = Db.ContactMessages.Find(id);
+        if (entry != null)
+        {
+            Db.ContactMessages.Remove(entry);
+            Db.SaveChanges();
+            contactMessages = Db.ContactMessages.ToList();
+        }
+    }
+
 }
