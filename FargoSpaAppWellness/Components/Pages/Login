@@ -1,0 +1,10 @@
+@page "/login"
+@using FargoSpaAndWellness.Models
+<style>
+    .padded {
+     padding: 10px;
+    }
+</style>
+<div class="padded">
+    <h3>Login submit boxes go here</h3>
+</div>
