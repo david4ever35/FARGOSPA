@@ -14,8 +14,12 @@
     }
 
     .table-container {
-        padding: 0;
-        margin: 0;
+        padding: 10px;
+        margin: auto;
+    }
+
+    .padded {
+        padding: 10px;
     }
 </style>
 
@@ -26,9 +30,8 @@
     // In-memory list of reviews shown on the page
     private List<Testimonial> Reviews { get; set; } = new List<Testimonial>();
 
-    // Simple local repository implementation to satisfy the existing calls to "Repository".
-    // This keeps the page self-contained and fixes the missing symbol errors.
-    private readonly SimpleRepository Repository = new SimpleRepository();
+    // Simple local repository implementation
+    private SimpleRepository Repository = new SimpleRepository();
 
     protected override async Task OnInitializedAsync()
     {
@@ -83,7 +86,6 @@
         {
             if (testimonial == null) throw new ArgumentNullException(nameof(testimonial));
 
-            lock (_lock)
             {
                 testimonial.Id = _nextId++;
                 testimonial.Date = DateTime.UtcNow;
@@ -102,50 +104,53 @@
         }
     }
 }
+<div class="padded">
+    <h3>Testimonials</h3>
+</div>
 
-<h3>Testimonials</h3>
+<div class="table-container">
+    <table class="full-width-table"> 
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Rating</th>
+                <th>Remarks</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var review in Reviews)
+            {
+              <tr>
+                  <td>@review.Name</td>
+                  <td>@review.Rating</td>
+                  <td>@review.Remarks</td>
+              </tr>
+            }
+        </tbody>
+    </table>
+</div>
 
-
-
-<table>
-    <thead>
-        <tr>
-            <th>Name</th>
-            <th>Rating</th>
-            <th>Remarks</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach(var review in Reviews)
-        {
-          <tr>
-              <td>@review.Name</td>
-              <td>@review.Rating</td>
-              <td>@review.Remarks</td>
-          </tr>
-        }
-    </tbody>
-</table>
-
-<h4>Leave your review!</h4>
-<EditForm Model="@Review" OnValidSubmit="@SubmitAsync" FormName="TestimonialForm">
-    <DataAnnotationsValidator />
-    <ValidationSummary />
-    <ul>
-        <li>
-            <label for="name">Name:</label>
-            <InputText id="name" @bind-Value="Review.Name" />
-        </li>
-        <li>
-            <label for="rating">Rating:</label>
-            <InputNumber id="rating" @bind-Value="Review.Rating" min="1" max="5" />
-        </li>
-        <li>
-            <label for="remarks">Remarks:</label>
-            <InputText id="remarks" @bind-Value="Review.Remarks" +/>
-        </li>
-        <li>
-            <button type="submit">Add Testimonial</button>
-        </li>
-    </ul>
-</EditForm>
+<div class="padded">  
+    <h4>Leave your review!</h4>
+    <EditForm Model="@Review" OnSubmit="@SubmitAsync" FormName="TestimonialForm">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+        <ul>
+            <li>
+                <label for="name">Name:</label>
+                <InputText id="name" @bind-Value="Review.Name"/>
+            </li>
+            <li>
+                <label for="rating">Rating:</label>
+                <InputNumber id="rating" @bind-Value="Review.Rating" min="1" max="5" />
+            </li>
+            <li>
+                <label for="remarks">Remarks:</label>
+                <InputText id="remarks" @bind-Value="Review.Remarks" +/>
+            </li>
+            <li>
+                <button type="submit">Add Testimonial</button>
+            </li>
+        </ul>
+    </EditForm>
+</div>
