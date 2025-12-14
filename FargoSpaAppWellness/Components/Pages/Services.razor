@@ -1,107 +1,152 @@
-﻿@page "/services"
+@page "/services"
 
 <PageTitle>Our Services</PageTitle>
 
-<!-- HERO SECTION (FULL WIDTH, LIGHT BLUE) -->
-<div class="bg-info bg-opacity-25 py-5 full-bleed text-center">
-    <h1 class="display-4 fw-bold">Our Spa Services</h1>
-    <p class="lead">Relax, rejuvenate, and restore with our variety of treatments</p>
+<!-- HERO SECTION -->
+<div class="bg-info bg-opacity-25 text-center"
+     style="padding: 5rem 1rem;">
+    <h1 class="display-4 fw-bold mb-3">Our Spa Services</h1>
+    <p class="lead mb-0">
+        Relax, rejuvenate, and restore with our variety of treatments
+    </p>
 </div>
 
 <div class="container my-5">
 
-    <!-- MASSAGE THERAPY (LIGHT GRAY CARD) -->
-    <div class="bg-body-secondary p-5 rounded-5 shadow-sm mb-5 text-center">
+    <!-- MASSAGE THERAPY -->
+    <div class="bg-body-secondary rounded-5 shadow-sm mb-5 text-center"
+         style="padding: 3.5rem;">
 
         <img src="/images/Services/massage.jpg"
              alt="Massage Therapy"
-             class="img-fluid mb-3 rounded shadow"
-             style="max-width: 300px; height: auto; display: block; margin-left: auto; margin-right: auto;" />
+             class="img-fluid rounded shadow mb-4"
+             style="max-width: 300px; display: block; margin: auto;" />
 
         <h2 class="service-header mb-4">Massage Therapy</h2>
 
-        <div class="row">
-            <div class="col-md-4">
-                <h5><u>Swedish Massage</u></h5>
-                <p>Gentle, relaxing massage to relieve stress and tension | 45</p>
+        <div class="row justify-content-center">
+            <div class="col-md-4 px-4 py-3">
+                <h5 class="mb-2"><u>Swedish Massage</u></h5>
+                <p class="mb-0">
+                    Gentle, relaxing massage to relieve stress and tension<br />
+                    <strong>Starting at $45</strong>
+                </p>
             </div>
-            <div class="col-md-4">
-                <h5><u>Deep Tissue Massage</u></h5>
-                <p>Targets deeper layers of muscles to release chronic tension | 65 </p>
+            <div class="col-md-4 px-4 py-3">
+                <h5 class="mb-2"><u>Deep Tissue Massage</u></h5>
+                <p class="mb-0">
+                    Targets deeper layers of muscles to release chronic tension<br />
+                    <strong>Starting at $65</strong>
+                </p>
             </div>
-            <div class="col-md-4">
-                <h5><u>Hot Stone Massage</u></h5>
-                <p>Warm stones combined with massage for ultimate relaxation | 75</p>
+            <div class="col-md-4 px-4 py-3">
+                <h5 class="mb-2"><u>Hot Stone Massage</u></h5>
+                <p class="mb-0">
+                    Warm stones combined with massage for ultimate relaxation<br />
+                    <strong>Starting at $75</strong>
+                </p>
             </div>
         </div>
     </div>
 
-    <!-- FACIALS (WHITE CARD) -->
-    <div class="bg-white p-5 rounded-5 shadow-sm mb-5 text-center">
+    <!-- FACIALS -->
+    <div class="bg-white rounded-5 shadow-sm mb-5 text-center"
+         style="padding: 3.5rem;">
 
         <img src="/images/Services/facial.jpg"
              alt="Facials"
-             class="img-fluid mb-3 rounded shadow"
-             style="max-width: 300px; height: auto; display: block; margin-left: auto; margin-right: auto;" />
+             class="img-fluid rounded shadow mb-4"
+             style="max-width: 300px; display: block; margin: auto;" />
 
         <h2 class="service-header mb-4">Facials</h2>
 
-        <div class="row">
-            <div class="col-md-4">
-                <h5><u>Classic Facial</u></h5>
-                <p>Deep cleansing and hydrating treatment for all skin types | 30 </p>
+        <div class="row justify-content-center">
+            <div class="col-md-4 px-4 py-3">
+                <h5 class="mb-2"><u>Classic Facial</u></h5>
+                <p class="mb-0">
+                    Deep cleansing and hydrating treatment for all skin types<br />
+                    <strong>Starting at $30</strong>
+                </p>
             </div>
-            <div class="col-md-4">
-                <h5><u>Anti-Aging Facial</u></h5>
-                <p>Reduces fine lines and rejuvenates skin with specialized products | 40 </p>
+            <div class="col-md-4 px-4 py-3">
+                <h5 class="mb-2"><u>Anti-Aging Facial</u></h5>
+                <p class="mb-0">
+                    Reduces fine lines and rejuvenates skin with specialized products<br />
+                    <strong>Starting at $40</strong>
+                </p>
             </div>
-            <div class="col-md-4">
-                <h5><u>Acne Treatment Facial</u></h5>
-                <p>Targets blemishes and inflammation for clearer skin | 25</p>
+            <div class="col-md-4 px-4 py-3">
+                <h5 class="mb-2"><u>Acne Treatment Facial</u></h5>
+                <p class="mb-0">
+                    Targets blemishes and inflammation for clearer skin<br />
+                    <strong>Starting at $25</strong>
+                </p>
             </div>
         </div>
     </div>
 
-    <!-- BODY TREATMENTS (LIGHT GRAY CARD) -->
-    <div class="bg-body-secondary p-5 rounded-5 shadow-sm mb-5 text-center">
+    <!-- BODY TREATMENTS -->
+    <div class="bg-body-secondary rounded-5 shadow-sm mb-5 text-center"
+         style="padding: 3.5rem;">
 
         <img src="/images/Services/body.jpg"
              alt="Body Treatments"
-             class="img-fluid mb-3 rounded shadow"
-             style="max-width: 300px; height: auto; display: block; margin-left: auto; margin-right: auto;" />
+             class="img-fluid rounded shadow mb-4"
+             style="max-width: 300px; display: block; margin: auto;" />
 
         <h2 class="service-header mb-4">Body Treatments</h2>
 
-        <div class="row">
-            <div class="col-md-4">
-                <h5><u>Body Scrub</u></h5>
-                <p>Exfoliates and smooths your skin for a radiant glow | 30</p>
+        <div class="row justify-content-center">
+            <div class="col-md-4 px-4 py-3">
+                <h5 class="mb-2"><u>Body Scrub</u></h5>
+                <p class="mb-0">
+                    Exfoliates and smooths your skin for a radiant glow<br />
+                    <strong>Starting at $30</strong>
+                </p>
             </div>
-            <div class="col-md-4">
-                <h5><u>Body Wrap</u></h5>
-                <p>Detoxifying and hydrating treatment to nourish your skin | 20</p>
+            <div class="col-md-4 px-4 py-3">
+                <h5 class="mb-2"><u>Body Wrap</u></h5>
+                <p class="mb-0">
+                    Detoxifying and hydrating treatment to nourish your skin<br />
+                    <strong>Starting at $20</strong>
+                </p>
             </div>
-            <div class="col-md-4">
-                <h5><u>Hot Stone Therapy</u></h5>
-                <p>Combines heat and massage for deep relaxation and relief | 50</p>
+            <div class="col-md-4 px-4 py-3">
+                <h5 class="mb-2"><u>Hot Stone Therapy</u></h5>
+                <p class="mb-0">
+                    Combines heat and massage for deep relaxation and relief<br />
+                    <strong>Starting at $50</strong>
+                </p>
             </div>
         </div>
     </div>
 
-    <!-- CALL TO ACTION (WHITE CARD) -->
-    <div class="bg-white p-5 rounded-5 shadow-sm mb-5 text-center">
-        <h2 class="service-header mb-3">Book Your Appointment Today</h2>
-        <p>Experience relaxation and rejuvenation with our professional services.</p>
+    <!-- CALL TO ACTION -->
+    <div class="bg-white rounded-5 shadow-sm mb-5 text-center"
+         style="padding: 4rem 3rem;">
 
-        <a class="btn btn-success me-2" href="/register">Create Account</a>
-        <a class="btn btn-outline-primary" href="/book">Book Now</a>
+        <h2 class="service-header mb-3">Book Your Appointment Today</h2>
+        <p class="mb-4">
+            Experience relaxation and rejuvenation with our professional services.
+        </p>
+
+        <div>
+            <a class="btn btn-success btn-lg me-3" href="/register">
+                Create Account
+            </a>
+            <a class="btn btn-outline-primary btn-lg" href="/book">
+                Book Now
+            </a>
+        </div>
     </div>
 
 </div>
 
-<!-- FOOTER / CONTACT (FULL WIDTH, FLUSH BOTTOM) -->
-<div class="bg-primary text-white py-5 text-center">
-    <h3>Contact Us</h3>
+<!-- FOOTER -->
+<div class="bg-primary text-white text-center"
+     style="padding: 4rem 1rem;">
+    <h3 class="mb-3">Contact Us</h3>
     <p class="mb-1">📍 116 Roberts St N, Fargo, ND</p>
     <p class="mb-0">📞 (701) 867-5309</p>
 </div>
+
