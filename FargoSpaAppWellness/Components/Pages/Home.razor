@@ -1,5 +1,8 @@
 ﻿@page "/"
 
+
+@inject FargoSpaAppWellness.Services.UserSession Session
+
 <PageTitle>Home</PageTitle>
 
 <!-- HERO SECTION (FULL WIDTH, NO GAP FROM NAV) -->
@@ -98,16 +101,25 @@
     <!-- CALL TO ACTION -->
     <div class="bg-light p-5 rounded-5 shadow-sm mb-5 text-center">
         <h2>Ready to Relax?</h2>
-        <p>Create an account or log in to book your appointment today.</p>
 
-        <a class="btn btn-success me-2" href="/register">
-            Create Account
-        </a>
+        @if (!Session.IsLoggedIn)
+        {
+            <p>Log in to book your appointment today.</p>
 
-        <a class="btn btn-outline-primary" href="/login">
-            Log In
-        </a>
+            <a class="btn btn-primary" href="/login">
+                Log In
+            </a>
+        }
+        else
+        {
+            <p>Schedule your next appointment with us.</p>
+
+            <a class="btn btn-success" href="/book">
+                Book Appointment
+            </a>
+        }
     </div>
+
 
 
 </div>
