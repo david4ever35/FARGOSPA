@@ -14,11 +14,11 @@
 }
 
 .nav-link {
-    display: inline-flex;
+    /*display: inline-flex; Commenting out to fix some formatting issues*/
     align-items: center; /* vertically center text */
     justify-content: center; /* horizontally optional */
     height: 100%;
-    padding: 0 1rem;
+    /*padding: 0 1rem; Commenting out to fix some formatting issues*/
     line-height: normal !important; /* ignore baseline */
     white-space: nowrap;
 }
