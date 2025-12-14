@@ -1,31 +1,29 @@
-using FargoSpaAppWellness.Components;
-using FargoSpaAppWellness.Data;   // <-- add this
-using Microsoft.EntityFrameworkCore; // <-- add this
+using FargoSpaAppWellness.Data;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-builder.Services.AddRazorComponents()
-    .AddInteractiveServerComponents();
+// Add services
+builder.Services.AddRazorPages();
+builder.Services.AddServerSideBlazor();
 
-// Register EF Core DbContext
+// Fix: use the correct connection string key
 builder.Services.AddDbContext<SpaDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("SpaDbConnection")));
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
-    app.UseExceptionHandler("/Error", createScopeForErrors: true);
+    app.UseExceptionHandler("/Error");
     app.UseHsts();
 }
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-app.UseAntiforgery();
+app.UseRouting();
 
-app.MapRazorComponents<App>()
-    .AddInteractiveServerRenderMode();
+app.MapBlazorHub();
+app.MapFallbackToPage("/_Host");
 
 app.Run();

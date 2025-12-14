@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using FargoSpaAndWellness.Models;
+using FargoSpaAppWellness.Models;
 
 namespace FargoSpaAppWellness.Data
 {
@@ -7,11 +7,7 @@ namespace FargoSpaAppWellness.Data
     {
         public SpaDbContext(DbContextOptions<SpaDbContext> options) : base(options) { }
 
-        public DbSet<Booking> Bookings { get; set; }
-        public DbSet<Service> Services { get; set; }
-        public DbSet<Customer> Customers { get; set; }
-        public DbSet<Employee> Employees { get; set; }
         public DbSet<Testimonial> Testimonials { get; set; }
-        public DbSet<Manager> Managers { get; set; }
+
     }
 }

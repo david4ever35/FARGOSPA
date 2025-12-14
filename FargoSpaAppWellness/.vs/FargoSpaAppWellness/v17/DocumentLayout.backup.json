@@ -7,44 +7,92 @@
       "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\caden larson\\desktop\\fargospa\\fargospaappwellness\\components\\pages\\services.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:components\\pages\\services.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\caden larson\\desktop\\fargospa\\fargospaappwellness\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\caden larson\\desktop\\fargospa\\fargospaappwellness\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\caden larson\\desktop\\fargospa\\fargospaappwellness\\components\\pages\\testimonials.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:components\\pages\\testimonials.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\caden larson\\desktop\\fargospa\\fargospaappwellness\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\caden larson\\desktop\\fargospa\\fargospaappwellness\\models\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:models\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\caden larson\\desktop\\fargospa\\fargospaappwellness\\data\\spadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:data\\spadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\caden larson\\desktop\\fargospa\\fargospaappwellness\\fargospaappwellness.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:fargospaappwellness.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\caden larson\\desktop\\fargospa\\fargospaappwellness\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\caden larson\\desktop\\fargospa\\fargospaappwellness\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\caden larson\\desktop\\fargospa\\fargospaappwellness\\wwwroot\\favicon.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:wwwroot\\favicon.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\caden larson\\desktop\\fargospa\\fargospaappwellness\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\caden larson\\desktop\\fargospa\\fargospaappwellness\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\caden larson\\desktop\\fargospa\\fargospaappwellness\\components\\pages\\contact.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:components\\pages\\contact.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\caden larson\\desktop\\fargospa\\fargospaappwellness\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\caden larson\\desktop\\fargospa\\fargospaappwellness\\components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\caden larson\\desktop\\fargospa\\fargospaappwellness\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\caden larson\\desktop\\fargospa\\fargospaappwellness\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\caden larson\\desktop\\fargospa\\fargospaappwellness\\components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\caden larson\\desktop\\fargospa\\fargospaappwellness\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\caden larson\\desktop\\fargospa\\fargospaappwellness\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\caden larson\\desktop\\fargospa\\fargospaappwellness\\components\\pages\\admindashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:components\\pages\\admindashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\caden larson\\desktop\\fargospa\\fargospaappwellness\\migrations\\20251214042223_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:migrations\\20251214042223_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\caden larson\\desktop\\fargospa\\fargospaappwellness\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\caden larson\\desktop\\fargospa\\fargospaappwellness\\components\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:components\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\caden larson\\desktop\\fargospa\\fargospaappwellness\\components\\pages\\services.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:components\\pages\\services.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\caden larson\\desktop\\fargospa\\fargospaappwellness\\wwwroot\\favicon.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:wwwroot\\favicon.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\caden larson\\desktop\\fargospa\\fargospaappwellness\\components\\pages\\contact.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:components\\pages\\contact.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\caden larson\\desktop\\fargospa\\fargospaappwellness\\wwwroot\\bootstrap\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -55,48 +103,12 @@
       "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:wwwroot\\bootstrap\\bootstrap.min.css.map||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\caden larson\\desktop\\fargospa\\fargospaappwellness\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\caden larson\\desktop\\fargospa\\fargospaappwellness\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\caden larson\\desktop\\fargospa\\fargospaappwellness\\models\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:models\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\caden larson\\desktop\\fargospa\\fargospaappwellness\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\caden larson\\desktop\\fargospa\\fargospaappwellness\\data\\spadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:data\\spadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\caden larson\\desktop\\fargospa\\fargospaappwellness\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\caden larson\\desktop\\fargospa\\fargospaappwellness\\fargospaappwellness.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:fargospaappwellness.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\caden larson\\desktop\\fargospa\\fargospaappwellness\\components\\pages\\testimonials.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:components\\pages\\testimonials.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\caden larson\\desktop\\fargospa\\fargospaappwellness\\components\\pages\\book.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:components\\pages\\book.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\caden larson\\desktop\\fargospa\\fargospaappwellness\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|c:\\users\\caden larson\\desktop\\fargospa\\fargospaappwellness\\migrations\\20251211213813_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A77B10A-0AC7-4F48-A5A7-166978A582C0}|FargoSpaAppWellness.csproj|solutionrelative:migrations\\20251211213813_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -106,11 +118,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-11T04:57:03.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\wwwroot\\app.css",
+              "RelativeDocumentMoniker": "wwwroot\\app.css",
+              "ToolTip": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\wwwroot\\app.css",
+              "RelativeToolTip": "wwwroot\\app.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-13T16:25:05.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Testimonials.razor",
+              "DocumentMoniker": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\Pages\\Testimonials.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Testimonials.razor",
+              "ToolTip": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\Pages\\Testimonials.razor",
+              "RelativeToolTip": "Components\\Pages\\Testimonials.razor",
+              "ViewState": "AgIAACwAAAAAAAAAAAAqwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-11T04:55:26.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\App.razor",
+              "RelativeDocumentMoniker": "Components\\App.razor",
+              "ToolTip": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\App.razor",
+              "RelativeToolTip": "Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-13T16:42:55.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T21:33:53.162Z"
             },
             {
               "$type": "Document",
@@ -120,203 +192,38 @@
               "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
               "ToolTip": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\Pages\\Home.razor",
               "RelativeToolTip": "Components\\Pages\\Home.razor",
-              "ViewState": "AgIAAD0AAAAAAAAAAADwv2IAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-12-11T04:50:34.156Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T21:33:53.162Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Contact.razor",
-              "DocumentMoniker": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\Pages\\Contact.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\Contact.razor",
-              "ToolTip": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\Pages\\Contact.razor",
-              "RelativeToolTip": "Components\\Pages\\Contact.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-11T04:55:52.332Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Routes.razor",
-              "DocumentMoniker": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\Routes.razor",
-              "RelativeDocumentMoniker": "Components\\Routes.razor",
-              "ToolTip": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\Routes.razor",
-              "RelativeToolTip": "Components\\Routes.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-11T04:56:43.485Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "NavMenu.razor.css",
-              "DocumentMoniker": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\Layout\\NavMenu.razor.css",
-              "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor.css",
-              "ToolTip": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\Layout\\NavMenu.razor.css",
-              "RelativeToolTip": "Components\\Layout\\NavMenu.razor.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-12-13T16:31:27.091Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "app.css",
-              "DocumentMoniker": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\wwwroot\\app.css",
-              "RelativeDocumentMoniker": "wwwroot\\app.css",
-              "ToolTip": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\wwwroot\\app.css",
-              "RelativeToolTip": "wwwroot\\app.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-12-13T16:25:05.977Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MainLayout.razor.css",
-              "DocumentMoniker": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\Layout\\MainLayout.razor.css",
-              "RelativeDocumentMoniker": "Components\\Layout\\MainLayout.razor.css",
-              "ToolTip": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\Layout\\MainLayout.razor.css",
-              "RelativeToolTip": "Components\\Layout\\MainLayout.razor.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-12-13T16:34:20.947Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Services.razor",
-              "DocumentMoniker": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\Pages\\Services.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\Services.razor",
-              "ToolTip": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\Pages\\Services.razor",
-              "RelativeToolTip": "Components\\Pages\\Services.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-11T04:54:21.732Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "App.razor",
-              "DocumentMoniker": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\App.razor",
-              "RelativeDocumentMoniker": "Components\\App.razor",
-              "ToolTip": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\App.razor",
-              "RelativeToolTip": "Components\\App.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-13T16:42:55.843Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AdminDashboard.razor",
-              "DocumentMoniker": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\Pages\\AdminDashboard.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\AdminDashboard.razor",
-              "ToolTip": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\Pages\\AdminDashboard.razor",
-              "RelativeToolTip": "Components\\Pages\\AdminDashboard.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-11T04:56:20.403Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "favicon.png - PNG [32x32, 32 bit, PNG]",
-              "DocumentMoniker": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\wwwroot\\favicon.png",
-              "RelativeDocumentMoniker": "wwwroot\\favicon.png",
-              "ToolTip": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\wwwroot\\favicon.png - PNG [32x32, 32 bit, PNG]",
-              "RelativeToolTip": "wwwroot\\favicon.png - PNG [32x32, 32 bit, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-12-13T20:03:57.262Z",
-              "EditorCaption": " - PNG [32x32, 32 bit, PNG]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-11T04:57:03.642Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "Components\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "Components\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-13T16:35:22.343Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "bootstrap.min.css",
-              "DocumentMoniker": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\wwwroot\\bootstrap\\bootstrap.min.css",
-              "RelativeDocumentMoniker": "wwwroot\\bootstrap\\bootstrap.min.css",
-              "ToolTip": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\wwwroot\\bootstrap\\bootstrap.min.css",
-              "RelativeToolTip": "wwwroot\\bootstrap\\bootstrap.min.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-12-13T16:34:32.714Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
               "Title": "Entities.cs",
               "DocumentMoniker": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Models\\Entities.cs",
               "RelativeDocumentMoniker": "Models\\Entities.cs",
               "ToolTip": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Models\\Entities.cs",
               "RelativeToolTip": "Models\\Entities.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-11T21:31:44.41Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "bootstrap.min.css.map",
-              "DocumentMoniker": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\wwwroot\\bootstrap\\bootstrap.min.css.map",
-              "RelativeDocumentMoniker": "wwwroot\\bootstrap\\bootstrap.min.css.map",
-              "ToolTip": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\wwwroot\\bootstrap\\bootstrap.min.css.map",
-              "RelativeToolTip": "wwwroot\\bootstrap\\bootstrap.min.css.map",
+              "DocumentIndex": 8,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "Components\\Routes.razor",
+              "ToolTip": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\Routes.razor",
+              "RelativeToolTip": "Components\\Routes.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-12-13T18:03:01.016Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-11T04:56:43.485Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 7,
               "Title": "FargoSpaAppWellness.csproj",
               "DocumentMoniker": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\FargoSpaAppWellness.csproj",
               "RelativeDocumentMoniker": "FargoSpaAppWellness.csproj",
@@ -328,19 +235,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 6,
               "Title": "SpaDBContext.cs",
               "DocumentMoniker": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Data\\SpaDBContext.cs",
               "RelativeDocumentMoniker": "Data\\SpaDBContext.cs",
               "ToolTip": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Data\\SpaDBContext.cs",
               "RelativeToolTip": "Data\\SpaDBContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-11T21:21:37.098Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-11T21:35:06.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "NavMenu.razor.css",
+              "DocumentMoniker": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\Layout\\NavMenu.razor.css",
+              "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor.css",
+              "ToolTip": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\Layout\\NavMenu.razor.css",
+              "RelativeToolTip": "Components\\Layout\\NavMenu.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-13T16:31:27.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\_Imports.razor",
               "RelativeDocumentMoniker": "Components\\_Imports.razor",
@@ -352,43 +283,151 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "20251211213813_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Migrations\\20251211213813_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20251211213813_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Migrations\\20251211213813_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20251211213813_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T21:38:13.88Z"
+              "DocumentIndex": 10,
+              "Title": "_Host.cshtml",
+              "DocumentMoniker": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Pages\\_Host.cshtml",
+              "RelativeDocumentMoniker": "Pages\\_Host.cshtml",
+              "ToolTip": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Pages\\_Host.cshtml",
+              "RelativeToolTip": "Pages\\_Host.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T05:40:57.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-13T16:35:22.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MainLayout.razor.css",
+              "DocumentMoniker": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeDocumentMoniker": "Components\\Layout\\MainLayout.razor.css",
+              "ToolTip": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeToolTip": "Components\\Layout\\MainLayout.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-13T16:34:20.947Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-11T21:35:06.785Z"
+              "Title": "AdminDashboard.razor",
+              "DocumentMoniker": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\Pages\\AdminDashboard.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\AdminDashboard.razor",
+              "ToolTip": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\Pages\\AdminDashboard.razor",
+              "RelativeToolTip": "Components\\Pages\\AdminDashboard.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-11T04:56:20.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Register.razor",
+              "DocumentMoniker": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\Pages\\Register.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Register.razor",
+              "ToolTip": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\Pages\\Register.razor",
+              "RelativeToolTip": "Components\\Pages\\Register.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T03:52:29.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20251214042223_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Migrations\\20251214042223_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251214042223_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Migrations\\20251214042223_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20251214042223_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T04:22:24.369Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "Testimonials.razor",
-              "DocumentMoniker": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\Pages\\Testimonials.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\Testimonials.razor",
-              "ToolTip": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\Pages\\Testimonials.razor",
-              "RelativeToolTip": "Components\\Pages\\Testimonials.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAhAAAAAAAAAA==",
+              "Title": "Services.razor",
+              "DocumentMoniker": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\Pages\\Services.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Services.razor",
+              "ToolTip": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\Pages\\Services.razor",
+              "RelativeToolTip": "Components\\Pages\\Services.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-11T04:55:26.407Z"
+              "WhenOpened": "2025-12-11T04:54:21.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\Pages\\Login.razor",
+              "RelativeToolTip": "Components\\Pages\\Login.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T03:50:29.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Contact.razor",
+              "DocumentMoniker": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\Pages\\Contact.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Contact.razor",
+              "ToolTip": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\Pages\\Contact.razor",
+              "RelativeToolTip": "Components\\Pages\\Contact.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-11T04:55:52.332Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
+              "Title": "favicon.png - PNG [32x32, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\wwwroot\\favicon.png",
+              "RelativeDocumentMoniker": "wwwroot\\favicon.png",
+              "ToolTip": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\wwwroot\\favicon.png - PNG [32x32, 32 bit, PNG]",
+              "RelativeToolTip": "wwwroot\\favicon.png - PNG [32x32, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-12-13T20:03:57.262Z",
+              "EditorCaption": " - PNG [32x32, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "bootstrap.min.css",
+              "DocumentMoniker": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\wwwroot\\bootstrap\\bootstrap.min.css",
+              "RelativeDocumentMoniker": "wwwroot\\bootstrap\\bootstrap.min.css",
+              "ToolTip": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\wwwroot\\bootstrap\\bootstrap.min.css",
+              "RelativeToolTip": "wwwroot\\bootstrap\\bootstrap.min.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-13T16:34:32.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "bootstrap.min.css.map",
+              "DocumentMoniker": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+              "RelativeDocumentMoniker": "wwwroot\\bootstrap\\bootstrap.min.css.map",
+              "ToolTip": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+              "RelativeToolTip": "wwwroot\\bootstrap\\bootstrap.min.css.map",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-13T18:03:01.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "Book.razor",
               "DocumentMoniker": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\Pages\\Book.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Book.razor",
@@ -400,7 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "Error.razor",
               "DocumentMoniker": "C:\\Users\\Caden Larson\\Desktop\\FARGOSPA\\FargoSpaAppWellness\\Components\\Pages\\Error.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Error.razor",

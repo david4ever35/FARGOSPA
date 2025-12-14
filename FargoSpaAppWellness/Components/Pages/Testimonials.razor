@@ -1,156 +1,92 @@
 @page "/testimonials"
-@namespace FargoSpaAndWellness.Components.Pages
-@using FargoSpaAndWellness.Models
-@using System.ComponentModel.DataAnnotations
-@using System.Collections.Generic
-@using System.Threading.Tasks
-@using System.Linq
-@using System
+@using FargoSpaAppWellness.Models
+@inject FargoSpaAppWellness.Data.SpaDbContext Db
 
-<style>
-    .full-width-table {
-        width: 100%;
-        border-collapse: collapse;
-    }
+<h1 class="mb-4">Testimonials</h1>
 
-    .table-container {
-        padding: 10px;
-        margin: auto;
-    }
+<!-- ===================== -->
+<!-- ADD NEW TESTIMONIAL -->
+<!-- ===================== -->
+<div class="card mb-5 p-4 shadow-sm">
+    <h3 class="mb-3">Add a Testimonial</h3>
+    <div class="mb-3">
+        <label class="form-label">Name:</label>
+        <input @bind="newTestimonial.Name" class="form-control" placeholder="Your name" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Message:</label>
+        <textarea @bind="newTestimonial.Message" class="form-control" placeholder="Your message"></textarea>
+    </div>
+    <button class="btn btn-primary" @onclick="AddTestimonial">Submit</button>
+</div>
 
-    .padded {
-        padding: 10px;
-    }
-</style>
+<!-- ===================== -->
+<!-- LIST OF TESTIMONIALS -->
+<!-- ===================== -->
+<h3>All Testimonials</h3>
+
+@if (testimonials.Count == 0)
+{
+    <p>No testimonials yet.</p>
+}
+else
+{
+    <ul class="list-group mb-5">
+        @foreach (var t in testimonials)
+        {
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div>
+                    <strong>@t.Name</strong><br />
+                    @t.Message
+                </div>
+                <button class="btn btn-sm btn-danger" @onclick="() => DeleteTestimonial(t.Id)">Delete</button>
+            </li>
+        }
+    </ul>
+}
 
 @code {
-    // Model for the form
-    private Testimonial Review { get; set; } = new Testimonial();
+    private List<Testimonial> testimonials = new List<Testimonial>();
+    private Testimonial newTestimonial = new Testimonial();
 
-    // In-memory list of reviews shown on the page
-    private List<Testimonial> Reviews { get; set; } = new List<Testimonial>();
-
-    // Simple local repository implementation
-    private SimpleRepository Repository = new SimpleRepository();
-
-    protected override async Task OnInitializedAsync()
+    protected override void OnInitialized()
     {
-        Reviews = await Repository.GetReviewsAsync();
+        LoadTestimonials();
     }
 
-    public async Task ReviewAdded()
+    private void LoadTestimonials()
     {
-        Reviews = await Repository.GetReviewsAsync();
+        // Load all testimonials from database
+        testimonials = Db.Testimonials.OrderByDescending(t => t.Id).ToList();
     }
 
-    // Submit handler - return Task so it matches OnValidSubmit's async delegate
-    private async Task SubmitAsync()
+    private void AddTestimonial()
     {
-        await Repository.AddReviewAsync(new Testimonial
+        if (string.IsNullOrWhiteSpace(newTestimonial.Name) ||
+            string.IsNullOrWhiteSpace(newTestimonial.Message))
         {
-            Name = Review.Name,
-            Rating = Review.Rating,
-            Remarks = Review.Remarks,
-        });
-
-        Review = new Testimonial(); // Reset form
-
-        Reviews = await Repository.GetReviewsAsync();
-    }
-
-    private class SimpleRepository
-    {
-        private static readonly List<Testimonial> _store = new List<Testimonial>();
-        private static int _nextId = 1;
-        private static readonly object _lock = new object();
-
-        public Task<List<Testimonial>> GetReviewsAsync()
-        {
-            // Return a shallow copy to avoid external mutation
-            List<Testimonial> copy;
-            lock (_lock)
-            {
-                copy = _store.Select(r => new Testimonial
-                {
-                    Id = r.Id,
-                    Name = r.Name,
-                    Rating = r.Rating,
-                    Remarks = r.Remarks,
-                    Date = r.Date
-                }).ToList();
-            }
-            return Task.FromResult(copy);
+            // simple validation
+            return;
         }
 
-        public Task AddReviewAsync(Testimonial testimonial)
+        Db.Testimonials.Add(newTestimonial);
+        Db.SaveChanges();
+
+        // Refresh the list
+        LoadTestimonials();
+
+        // Clear the form
+        newTestimonial = new Testimonial();
+    }
+
+    private void DeleteTestimonial(int id)
+    {
+        var testimonial = Db.Testimonials.Find(id);
+        if (testimonial != null)
         {
-            if (testimonial == null) throw new ArgumentNullException(nameof(testimonial));
-
-            {
-                testimonial.Id = _nextId++;
-                testimonial.Date = DateTime.UtcNow;
-                // store a copy to avoid outside references
-                _store.Add(new Testimonial
-                {
-                    Id = testimonial.Id,
-                    Name = testimonial.Name,
-                    Rating = testimonial.Rating,
-                    Remarks = testimonial.Remarks,
-                    Date = testimonial.Date
-                });
-            }
-
-            return Task.CompletedTask;
+            Db.Testimonials.Remove(testimonial);
+            Db.SaveChanges();
+            LoadTestimonials();
         }
     }
 }
-<div class="padded">
-    <h3>Testimonials</h3>
-</div>
-
-<div class="table-container">
-    <table class="full-width-table"> 
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Rating</th>
-                <th>Remarks</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach(var review in Reviews)
-            {
-              <tr>
-                  <td>@review.Name</td>
-                  <td>@review.Rating</td>
-                  <td>@review.Remarks</td>
-              </tr>
-            }
-        </tbody>
-    </table>
-</div>
-
-<div class="padded">  
-    <h4>Leave your review!</h4>
-    <EditForm Model="@Review" OnSubmit="@SubmitAsync" FormName="TestimonialForm">
-        <DataAnnotationsValidator />
-        <ValidationSummary />
-        <ul>
-            <li>
-                <label for="name">Name:</label>
-                <InputText id="name" @bind-Value="Review.Name"/>
-            </li>
-            <li>
-                <label for="rating">Rating:</label>
-                <InputNumber id="rating" @bind-Value="Review.Rating" min="1" max="5" />
-            </li>
-            <li>
-                <label for="remarks">Remarks:</label>
-                <InputText id="remarks" @bind-Value="Review.Remarks" +/>
-            </li>
-            <li>
-                <button type="submit">Add Testimonial</button>
-            </li>
-        </ul>
-    </EditForm>
-</div>

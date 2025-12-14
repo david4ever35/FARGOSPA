@@ -1,0 +1,30 @@
+﻿@page "/"
+@namespace FargoSpaAppWellness.Components.Pages
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fargo Spa App</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="bootstrap/app.css" />
+    <link rel="stylesheet" href="FargoSpaAppWellness.styles.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png" />
+</head>
+<body>
+    <app>
+        <component type="typeof(FargoSpaAppWellness.Components.App)" render-mode="ServerPrerendered" />
+    </app>
+
+    <script src="_framework/blazor.server.js"></script>
+</body>
+</html>
