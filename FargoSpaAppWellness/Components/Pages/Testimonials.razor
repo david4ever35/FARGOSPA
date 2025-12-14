@@ -17,6 +17,16 @@
         <label class="form-label">Message:</label>
         <textarea @bind="newTestimonial.Message" class="form-control" placeholder="Your message"></textarea>
     </div>
+    <div class="mb-3">
+        <label>Rating:</label>
+        <select @bind="newTestimonial.Rating" class="form-select">
+            <option value="5">&#9733;&#9733;&#9733;&#9733;&#9733; (5)</option>
+            <option value="4">&#9733;&#9733;&#9733;&#9733; (4)</option>
+            <option value="3">&#9733;&#9733;&#9733; (3)</option>
+            <option value="2">&#9733;&#9733; (2)</option>
+            <option value="1">&#9733; (1)</option>
+        </select>
+    </div>
     <button class="btn btn-primary" @onclick="AddTestimonial">Submit</button>
 </div>
 
@@ -34,13 +44,33 @@ else
     <ul class="list-group mb-5">
         @foreach (var t in testimonials)
         {
+
             <li class="list-group-item d-flex justify-content-between align-items-start">
                 <div>
                     <strong>@t.Name</strong><br />
-                    @t.Message
+
+                    <span class="text-warning">
+                        @for (int i = 0; i < t.Rating; i++)
+                        {
+                            <span>&#9733;</span>
+                        }
+                        @for (int i = t.Rating; i < 5; i++)
+                        {
+                            <span class="text-muted">&#9733;</span>
+                        }
+                    </span>
+
+                    <div class="mt-2">
+                        @t.Message
+                    </div>
                 </div>
-                <button class="btn btn-sm btn-danger" @onclick="() => DeleteTestimonial(t.Id)">Delete</button>
+
+                <button class="btn btn-sm btn-danger"
+                        @onclick="() => DeleteTestimonial(t.Id)">
+                    Delete
+                </button>
             </li>
+
         }
     </ul>
 }
@@ -63,21 +93,20 @@ else
     private void AddTestimonial()
     {
         if (string.IsNullOrWhiteSpace(newTestimonial.Name) ||
-            string.IsNullOrWhiteSpace(newTestimonial.Message))
+            string.IsNullOrWhiteSpace(newTestimonial.Message) ||
+            newTestimonial.Rating < 1 || newTestimonial.Rating > 5)
         {
-            // simple validation
             return;
         }
 
         Db.Testimonials.Add(newTestimonial);
         Db.SaveChanges();
 
-        // Refresh the list
         LoadTestimonials();
 
-        // Clear the form
-        newTestimonial = new Testimonial();
+        newTestimonial = new Testimonial { Rating = 5 };
     }
+
 
     private void DeleteTestimonial(int id)
     {

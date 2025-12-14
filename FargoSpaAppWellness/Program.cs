@@ -7,9 +7,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 
-// Fix: use the correct connection string key
+// SWITCH TO SQLITE (file-based, plug-and-play)
 builder.Services.AddDbContext<SpaDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("SpaDbConnection")));
+    options.UseSqlite(builder.Configuration.GetConnectionString("SpaDb")));
 
 var app = builder.Build();
 
