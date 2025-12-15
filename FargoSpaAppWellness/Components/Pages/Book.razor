@@ -1,7 +1,12 @@
-﻿@page "/book"
+@page "/book"
 @inject FargoSpaAppWellness.Services.UserSession Session
 @inject FargoSpaAppWellness.Data.SpaDbContext Db
-
+<style>
+    .padded {
+        padding: 20px;
+    }
+</style>
+<div class="padded">
 @if (!Session.IsLoggedIn)
 {
     <RedirectToHome />
@@ -44,7 +49,7 @@ else
         </table>
     }
 }
-
+</div>
 @code {
     List<Appointment> availableAppointments = new();
 
